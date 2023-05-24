@@ -23,9 +23,9 @@ code {
   margin-bottom: 2px;
 }
 .home .post {
-  border: 1px solid #e1e1e1;
+  border: 5px solid black;
   padding: 10px 10px;
-  border-radius: 5px;
+  border-radius: 9px;
   margin-top: 10px;
 }
 .home .post a {
@@ -59,7 +59,6 @@ code {
   display: flex;
   background-color: rgb(51, 51, 113);
   margin: auto;
-
 }
 #nav li {
   margin-left: 27px;
@@ -100,7 +99,7 @@ code {
 }
 .create-post-btn {
   height: 33px;
-  background: #4caf50;
+  background: #431c70;
   border: 0;
   color: #fff;
   padding: 8px;
@@ -108,3 +107,4 @@ code {
   border-radius: 3px;
   cursor: pointer;
 }
+

@@ -15,9 +15,9 @@ export const CreatePost = () => {
 
     // Adding A data Document into the firebase database
     addDoc(collection(db, 'posts'), {
-      title:title.value,
-      subTitle:subTitle.value,
-      content:content.value,
+      title: title.value,
+      subTitle: subTitle.value,
+      content: content.value,
       createdAt: new Date(),
     });
   }
